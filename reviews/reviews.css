@@ -87,7 +87,7 @@ header li:hover::after {
     border: none;
 }
 
-.authorization:hover{
+.authorization a:hover{
     color: orange;
 }
 
@@ -101,6 +101,18 @@ header li:hover::after {
     left: -25px;
     background-image: url(media/icons8-key.svg);
 }
+
+ .register{
+    background: transparent;
+    font-size: 18px;
+    color: #a0a0a0;
+    border: none;
+}
+
+.register a:hover{
+    color: orange;
+} 
+
 
 .notification{
     background: transparent;

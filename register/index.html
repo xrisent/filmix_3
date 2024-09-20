@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация нового пользователя</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Регистрация нового пользователя</h2>
+            <p>Для регистрации заполните все нижеперечисленные поля. После, вам придёт письмо на указанную почту, где будет необходимо подтвердить регистрацию.</p>
+            <span class="close-btn">&times;</span>
+        </div>
+        <div class="register-box">
+            <h3>ШАГ 1</h3>
+            <p>В случае возникновения проблем с регистрацией, обратитесь к нам через <a href="#">форму обратной связи</a>.</p>
+
+            <form id="register-form">
+                <label for="login">Логин</label>
+                <input type="text" id="login" name="login" required>
+
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Повторите пароль</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <label for="email">E-mail адрес</label>
+                <input type="email" id="email" name="email" required>
+
+                <div class="captcha">
+                    <img src="img/antibot.php" alt="Captcha">
+                    <p><a href="#">Не видно картинки?</a></p>
+                </div>
+
+                <label for="captcha-code">Код с картинки</label>
+                <input type="text" id="captcha-code" name="captcha-code" required>
+
+                <p>После нажатия на "продолжить" Вы соглашаетесь с <a href="#">правилами сайта</a>.</p>
+
+                <button type="submit">ПРОДОЛЖИТЬ</button>
+            </form>
+
+            <div class="social-login">
+                <p>или быстрая регистрация через соцсети:</p>
+                <a href="#"><img src="img/fscebook.png" alt="Facebook"></a>
+                <a href="#"><img src='img/google.png' alt="Google"></a>
+                <a href="#"><img src="img/vk.png" alt="VK"></a>
+                <a href="#"><img src="img/telegram.png" alt="telegram"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Example</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <button id="openModal">Открыть модалку</button>
+
+  <!-- Модальное окно -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modalt">
+        <span class="close">&times;</span>
+        <h2 class="regis">Авторизация</h2>
+        <p class="log">Введите свои логин пароль
+          для входа в личный кабинет</p>
+      </div>
+      <div class="inutr">
+        <input class="input" type="text" placeholder="Логин">
+      <div class="relative">
+        <input class="input" type="text" placeholder="Пароль">
+        <a href="">Забыли?</a>
+      </div>
+      </div>
+      <div class="login">
+        <button class="btn">войти</button>
+
+        <div class="checkbox">
+          <input type="checkbox">
+          <p class="janbo">Запомнить меня</p>
+        </div>
+
+      </div>
+      <div class="kursant">
+        <p class="no">Нет акаунта?</p>
+        <p class="zare">зарегистрироваться</p>
+      </div>
+      <div class="voiti">
+        <p>Или войдите с помощью соцсети</p>
+        <div class="icons">
+          <a href="https://www.facebook.com/?locale=ru_RU" target="_blank"><img src="./img/facebook.png" alt=""></a>
+          <a href="https://vk.com/?u=2&to=L2luZGV4LnBocD90MmZzPWExOTU2OGRjZGQzNGE0NTVjMl8z" target="_blank"><img
+              src="./img/free-icon-vk-124029.png" alt=""></a>
+          <a href="https://ok.ru/"><img src="./img/pngwing.com (1).png"target="_blank" alt=""></a>
+          <a href="https://myaccount.google.com/dashboard" target="_blank"><img src="./img/clipart1004976.png" alt=""></a>
+          <a
+            href="https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fsso.passport.yandex.ru%2Fpush%3Fretpath%3Dhttps%253A%252F%252Fya.ru%252F%26uuid%3D4d47daec-8218-4f72-ba69-507475d723a8&msid=1726410677613288-7109296370778774038-balancer-l7leveler-kubr-yp-klg-308-BAL&origin=home_yaru_desktop_new"target="_blank"><img
+              src="./img/yandex_cyr_icon-icons.com_61627.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
